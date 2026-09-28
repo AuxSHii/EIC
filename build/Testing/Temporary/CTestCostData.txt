@@ -1,5 +1,0 @@
-eic_smoke_test 1 0.00275204
-eic_core_constants_test 1 0.00220275
-eic_math_vectors_test 1 0.00217346
-eic_particles_test 1 0.00224492
----
