@@ -1,0 +1,49 @@
+Start testing: Sep 28 15:16 IST
+----------------------------------------------------------
+1/3 Testing: eic_smoke_test
+1/3 Test: eic_smoke_test
+Command: "/Users/alter-book/documents/builds/EIC/build/eic_smoke_test"
+Directory: /Users/alter-book/documents/builds/EIC/build
+"eic_smoke_test" start time: Sep 28 15:16 IST
+Output:
+----------------------------------------------------------
+EIC core init successfuly.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"eic_smoke_test" end time: Sep 28 15:16 IST
+"eic_smoke_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: eic_core_constants_test
+2/3 Test: eic_core_constants_test
+Command: "/Users/alter-book/documents/builds/EIC/build/eic_core_constants_test"
+Directory: /Users/alter-book/documents/builds/EIC/build
+"eic_core_constants_test" start time: Sep 28 15:16 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"eic_core_constants_test" end time: Sep 28 15:16 IST
+"eic_core_constants_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: eic_math_vectors_test
+3/3 Test: eic_math_vectors_test
+Command: "/Users/alter-book/documents/builds/EIC/build/eic_math_vectors_test"
+Directory: /Users/alter-book/documents/builds/EIC/build
+"eic_math_vectors_test" start time: Sep 28 15:16 IST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"eic_math_vectors_test" end time: Sep 28 15:16 IST
+"eic_math_vectors_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 28 15:16 IST

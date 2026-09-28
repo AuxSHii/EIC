@@ -1,7 +1,7 @@
 #include <cassert>
 
-#include "core/constants/constants.hpp"
-#include "core/units/units.hpp"
+#include "core/constants.hpp"
+#include "core/units.hpp"
 
 int main()
 {

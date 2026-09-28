@@ -40,3 +40,15 @@ add_test(
     NAME eic_core_constants_test
     COMMAND eic_core_constants_test
 )
+add_executable(eic_math_vectors_test
+    tests/math_vectors_test.cpp
+)
+
+target_link_libraries(eic_math_vectors_test
+    PRIVATE eic_core
+)
+
+add_test(
+    NAME eic_math_vectors_test
+    COMMAND eic_math_vectors_test
+)
