@@ -13,25 +13,25 @@ namespace eic::particles
 	{
 	public:
 		ParticleState(
-			const ParticelDefinition& defintion,     //def
+			const ParticleDefinition& definition,     //def
 			const eic::math::FourVector& momentum,   //momentium
-			cosnt eic::math::Vector3& position)    //posn
+			const eic::math::Vector3& position)    //posn
 
-            : defintion_(defintion),
+            : definition_(definition),
               momentum_(momentum),
               position_(position)
               {
 
               }
     
-        const ParticelDefinition& defintion() const { return defintion_; }
+        const ParticleDefinition& definition() const { return definition_; }
         const eic::math::FourVector& momentum() const { return momentum_; }
         const eic::math::Vector3& position() const { return position_; }
 
     private:
-    	const ParticelDefinition& defintion_;
+    	const ParticleDefinition& definition_;
     	eic::math::FourVector momentum_;
-    	eic::maths::Vector3 position_;
+    	eic::math::Vector3 position_;
  
 	};
 }

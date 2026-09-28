@@ -165,6 +165,19 @@ eic_math_vectors_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_math_vectors_test.dir/build.make CMakeFiles/eic_math_vectors_test.dir/build
 .PHONY : eic_math_vectors_test/fast
 
+#=============================================================================
+# Target rules for targets named eic_particles_test
+
+# Build rule for target.
+eic_particles_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eic_particles_test
+.PHONY : eic_particles_test
+
+# fast build rule for target.
+eic_particles_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_particles_test.dir/build.make CMakeFiles/eic_particles_test.dir/build
+.PHONY : eic_particles_test/fast
+
 tests/core_constants_test.o: tests/core_constants_test.cpp.o
 .PHONY : tests/core_constants_test.o
 
@@ -213,6 +226,30 @@ tests/math_vectors_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_math_vectors_test.dir/build.make CMakeFiles/eic_math_vectors_test.dir/tests/math_vectors_test.cpp.s
 .PHONY : tests/math_vectors_test.cpp.s
 
+tests/particles_test.o: tests/particles_test.cpp.o
+.PHONY : tests/particles_test.o
+
+# target to build an object file
+tests/particles_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_particles_test.dir/build.make CMakeFiles/eic_particles_test.dir/tests/particles_test.cpp.o
+.PHONY : tests/particles_test.cpp.o
+
+tests/particles_test.i: tests/particles_test.cpp.i
+.PHONY : tests/particles_test.i
+
+# target to preprocess a source file
+tests/particles_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_particles_test.dir/build.make CMakeFiles/eic_particles_test.dir/tests/particles_test.cpp.i
+.PHONY : tests/particles_test.cpp.i
+
+tests/particles_test.s: tests/particles_test.cpp.s
+.PHONY : tests/particles_test.s
+
+# target to generate assembly for a file
+tests/particles_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eic_particles_test.dir/build.make CMakeFiles/eic_particles_test.dir/tests/particles_test.cpp.s
+.PHONY : tests/particles_test.cpp.s
+
 tests/smoke_test.o: tests/smoke_test.cpp.o
 .PHONY : tests/smoke_test.o
 
@@ -248,6 +285,7 @@ help:
 	@echo "... test"
 	@echo "... eic_core_constants_test"
 	@echo "... eic_math_vectors_test"
+	@echo "... eic_particles_test"
 	@echo "... eic_smoke_test"
 	@echo "... tests/core_constants_test.o"
 	@echo "... tests/core_constants_test.i"
@@ -255,6 +293,9 @@ help:
 	@echo "... tests/math_vectors_test.o"
 	@echo "... tests/math_vectors_test.i"
 	@echo "... tests/math_vectors_test.s"
+	@echo "... tests/particles_test.o"
+	@echo "... tests/particles_test.i"
+	@echo "... tests/particles_test.s"
 	@echo "... tests/smoke_test.o"
 	@echo "... tests/smoke_test.i"
 	@echo "... tests/smoke_test.s"

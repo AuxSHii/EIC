@@ -115,4 +115,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/eic_smoke_test.dir/DependInfo.cmake"
   "CMakeFiles/eic_core_constants_test.dir/DependInfo.cmake"
   "CMakeFiles/eic_math_vectors_test.dir/DependInfo.cmake"
+  "CMakeFiles/eic_particles_test.dir/DependInfo.cmake"
   )

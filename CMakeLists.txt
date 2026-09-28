@@ -52,3 +52,13 @@ add_test(
     NAME eic_math_vectors_test
     COMMAND eic_math_vectors_test
 )
+
+add_executable(eic_particles_test
+     tests/particles_test.cpp
+)
+target_link_libraries(eic_particles_test 
+PRIVATE eic_core)
+
+add_test(
+NAME eic_particles_test
+COMMAND eic_particles_test)

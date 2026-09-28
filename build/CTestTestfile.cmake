@@ -10,3 +10,5 @@ add_test([=[eic_core_constants_test]=] "/Users/alter-book/documents/builds/EIC/b
 set_tests_properties([=[eic_core_constants_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/Users/alter-book/documents/builds/EIC/CMakeLists.txt;39;add_test;/Users/alter-book/documents/builds/EIC/CMakeLists.txt;0;")
 add_test([=[eic_math_vectors_test]=] "/Users/alter-book/documents/builds/EIC/build/eic_math_vectors_test")
 set_tests_properties([=[eic_math_vectors_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/Users/alter-book/documents/builds/EIC/CMakeLists.txt;51;add_test;/Users/alter-book/documents/builds/EIC/CMakeLists.txt;0;")
+add_test([=[eic_particles_test]=] "/Users/alter-book/documents/builds/EIC/build/eic_particles_test")
+set_tests_properties([=[eic_particles_test]=] PROPERTIES  _BACKTRACE_TRIPLES "/Users/alter-book/documents/builds/EIC/CMakeLists.txt;62;add_test;/Users/alter-book/documents/builds/EIC/CMakeLists.txt;0;")
