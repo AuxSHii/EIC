@@ -27,3 +27,16 @@ target_link_libraries(eic_smoke_test
 )
 
 add_test(NAME eic_smoke_test COMMAND eic_smoke_test)
+
+add_executable(eic_core_constants_test
+    tests/core_constants_test.cpp
+)
+
+target_link_libraries(eic_core_constants_test
+    PRIVATE eic_core
+)
+
+add_test(
+    NAME eic_core_constants_test
+    COMMAND eic_core_constants_test
+)

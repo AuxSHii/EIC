@@ -1,4 +1,0 @@
-/Users/alter-book/documents/builds/EIC/build/CMakeFiles/eic_smoke_test.dir
-/Users/alter-book/documents/builds/EIC/build/CMakeFiles/test.dir
-/Users/alter-book/documents/builds/EIC/build/CMakeFiles/edit_cache.dir
-/Users/alter-book/documents/builds/EIC/build/CMakeFiles/rebuild_cache.dir
