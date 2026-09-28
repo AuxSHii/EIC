@@ -62,3 +62,16 @@ PRIVATE eic_core)
 add_test(
 NAME eic_particles_test
 COMMAND eic_particles_test)
+
+add_executable(eic_lorentz_test
+    tests/lorentz_test.cpp
+)
+
+target_link_libraries(eic_lorentz_test
+    PRIVATE eic_core
+)
+
+add_test(
+    NAME eic_lorentz_test
+    COMMAND eic_lorentz_test
+)
